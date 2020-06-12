@@ -1,4 +1,4 @@
-FROM continuumio/miniconda:4.7.12
+FROM continuumio/miniconda:4.8.2
 
 RUN apt-get update \
     && apt-get install -y build-essential \
